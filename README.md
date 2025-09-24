@@ -19,13 +19,13 @@ Guia para configurar um ambiente de desenvolvimento no **WSL** com **Git**, **No
 
 ## 🔹 1. Instalar e Configurar WSL
 No PowerShell (como administrador):
-wsl --install
-wsl --update
-wsl --set-default-version 2
+*  wsl --install
+*  wsl --update
 
-Escolha uma distribuição (ex: Ubuntu) e abra no terminal.
-
----
+### Extra: 
+Comando uteis para listar distros wsl
+* wsl --list --verbose
+* wsl -l -v
 
 ## 🔹 2. Atualizar pacotes
 sudo apt update && sudo apt upgrade -y
@@ -33,41 +33,38 @@ sudo apt update && sudo apt upgrade -y
 ---
 
 ## 🔹 3. Instalar Git
-sudo apt install git -y
-git --version
+*  sudo apt install git -y
+*  git --version
 
 Configuração inicial:
-git config --global user.name "Seu Nome"
-git config --global user.email "seuemail@exemplo.com"
+*  git config --global user.name "Seu Nome"
+*  git config --global user.email "seuemail@exemplo.com"
 
 ---
 
 ## 🔹 4. Instalar NVM e Node.js
 Instalar NVM:
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+*  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 
 Ativar:
-export NVM_DIR="$HOME/.nvm"
+*  export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 Verificar:
-nvm --version
+*  nvm --version
 
 Instalar Node:
-nvm install --lts
-nvm alias default 20   # define versão padrão
+*  nvm install --lts
+*  nvm alias default 20   # define versão padrão
 
 ---
 
 ## 🔹 5. Instalar Yarn
-Se Node >= 16:
-corepack enable
-
-Ou via npm:
-npm install -g yarn
+Via npm:
+*  npm install -g yarn
 
 Verificar:
-yarn -v
+*  yarn -v
 
 ---
 
