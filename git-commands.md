@@ -1,6 +1,6 @@
 # 🌿 Cola de Comandos Git
 
-Referência rápida dos comandos Git mais usados no dia a dia. Voltar para o [guia principal](./README-wsl-dev-environment.md).
+Referência rápida dos comandos Git mais usados no dia a dia. Voltar para o [guia principal](./README.md).
 
 ---
 

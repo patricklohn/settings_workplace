@@ -1,6 +1,6 @@
 # 🐳 Cola de Comandos Docker
 
-Referência rápida dos comandos Docker mais usados no dia a dia via terminal. Voltar para o [guia principal](./README-wsl-dev-environment.md).
+Referência rápida dos comandos Docker mais usados no dia a dia via terminal. Voltar para o [guia principal](./README.md).
 
 ---
 

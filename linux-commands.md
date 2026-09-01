@@ -1,6 +1,6 @@
 # 🐧 Cola de Comandos Linux
 
-Referência rápida dos comandos mais usados no dia a dia dentro do WSL/Linux. Voltar para o [guia principal](./README-wsl-dev-environment.md).
+Referência rápida dos comandos mais usados no dia a dia dentro do WSL/Linux. Voltar para o [guia principal](./README.md).
 
 ---
 
